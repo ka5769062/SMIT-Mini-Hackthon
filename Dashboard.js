@@ -61,7 +61,7 @@ onAuthStateChanged(auth, async (user) => {
         signOut(auth)
           .then(() => {
             // Sign-out successful.
-            window.location.href = "register.html";
+            window.location.href = "index.html";
           })
           .catch((error) => {
             // An error happened.
