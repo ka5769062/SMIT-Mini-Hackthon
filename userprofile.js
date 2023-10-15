@@ -46,7 +46,7 @@ onAuthStateChanged(auth, (user) => {
     const myLogout = document.getElementById("myLogout")
     myLogout.addEventListener("click",()=>{
 
-   window.location.href = "register.html"
+   window.location.href = "index.html"
 
     }) 
 
